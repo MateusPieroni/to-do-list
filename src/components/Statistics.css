@@ -1,0 +1,44 @@
+.statistics{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.statistics div{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.statistics div span{
+    color: #D9D9D9;
+    background-color: #333333;
+    padding: 0.2rem 0.5rem;
+    border-radius: 16px;
+}
+
+.statistics-created-tasks div{
+    color: #4EA8DE;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.statistics{
+    margin-bottom: 1.5rem;
+}
+
+.statistics-created-tasks span{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.completed-tasks div{
+    color: #8284FA;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.completed-tasks span{
+    font-weight: 700;
+    font-size: 12px;
+}

@@ -1,0 +1,32 @@
+.no-tasks{
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    border-top: 1px solid #333333;
+    padding: 4rem 13.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+}
+
+.no-tasks-primary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #808080;
+}
+
+.no-tasks-primary img{
+    width: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.span1{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.span2{
+    font-weight: 400;
+    font-size: 16px;
+}

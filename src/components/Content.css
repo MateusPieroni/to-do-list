@@ -1,0 +1,49 @@
+.content{
+    width: 46rem;
+}
+
+.new-task{
+    position: relative;
+    top: -1.6rem;
+}
+
+.new-task label{
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.new-task input{
+    color: #808080;
+    background-color: #262626;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #0D0D0D;
+    resize: none;
+    font: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.new-task input:focus{
+    outline: none;
+}
+
+.new-task button{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    background-color: #1E6F9F;
+    color: #F2F2F2;
+    border: 0;
+    font: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    align-items: center;
+}
+
+.new-task button svg{
+    color: #F2F2F2;
+}

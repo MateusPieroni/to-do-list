@@ -1,0 +1,58 @@
+.created-tasks{
+    background-color: #262626;
+    border: 1px solid #333333;
+    border-radius: 0.5rem;
+    padding: 1rem 1.25rem;
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.created-tasks div label{
+    color: #F2F2F2;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.created-tasks button{
+    border: 0;
+    background-color: #262626;
+    background: url('../assets/trash.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1rem;
+    margin-left: auto;
+}
+
+.created-tasks label{
+    display: flex;
+}
+
+.created-tasks .checkbox{
+    display: none;
+}
+
+.created-tasks .checkbox + label:before{
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid #4EA8DE;
+    border-radius: 9999px;
+    margin-right: 1rem;
+    vertical-align: top;
+}
+
+.created-tasks .completed .checkbox + label:before{ 
+    background-image: url(../assets/correct-vector.svg);
+    background-color: #5E60CE;
+    background-repeat: no-repeat;
+    border: 2px solid #5E60CE;
+    background-position: center; 
+}
+
+.created-tasks .completed label{
+    text-decoration: line-through;
+    color: #808080;
+}
